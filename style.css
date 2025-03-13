@@ -1,5 +1,8 @@
 body{
     background-image: url(./pngtree-cartoon-satellite-ruler-calculator-linear-education-background-picture-image_1458755.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .calculator {
     width: 300px;
