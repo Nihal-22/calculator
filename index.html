@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="result" >
+        <br>
+        <div class="r1">
+            <button id="seven"  onclick="displayNumber(7)">7</button>
+            <button id="eight" onclick="displayNumber(8)">8</button>
+            <button id="nine" onclick="displayNumber(9)">9</button>
+            <button id="mul" style="background-color: rgb(180, 146, 72);" onclick="displayNumber('*')">&#215;</button>
+        </div>
+        <br>
+        <div class="r2">
+            <button id="four" onclick="displayNumber(4)">4</button>
+            <button id="five" onclick="displayNumber(5)">5</button>
+            <button id="six" onclick="displayNumber(6)">6</button>
+            <button id="min" style="background-color: rgb(180, 146, 72);" onclick="displayNumber('-')">&#8722;</button>
+        </div>
+        <br>
+        <div class="r3">
+            <button id="one" onclick="displayNumber(1)">1</button>
+            <button id="two" onclick="displayNumber(2)">2</button>
+            <button id="three" onclick="displayNumber(3)">3</button>
+            <button id="add" style="background-color: rgb(180, 146, 72);" onclick="displayNumber('+')">&#43;</button>
+        </div>
+        <br>
+        <div class="r4">
+            <button id="doubleZero" onclick="displayNumber('00')">00</button>
+            <button id="singleZero" onclick="displayNumber(0)">0</button>
+            <button id="div" onclick="displayNumber('.')">.</button>
+            <button id="div" style="background-color:rgb(180, 146, 72);" onclick="displayNumber('/')">&#247</button>
+        </div>
+        <br>
+        <div class="r5">
+            <button id="ac" style="background-color: rgb(190, 121, 17);" onclick="clearBox()">AC</button>
+            <button id="dlt" style="background-color: rgb(255, 4, 0);" onclick="removelastitem()">&#9003;</button>
+            <button id="equal"  style="background-color: rgb(150, 255, 150);" onclick="evaluateExp()">=</button>
+        </div>
+        
+    </div>
+   
+</body>
+<script src="./script.js"></script>
+</html>
